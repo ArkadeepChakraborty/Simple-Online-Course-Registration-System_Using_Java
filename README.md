@@ -40,7 +40,6 @@ This repository contains two frontends and one backend:
 
 
 🧩 Tech Stack
-Frontend
 
 1. React.js
 
@@ -58,37 +57,37 @@ Frontend
 
 8. Hibernate
 
-MySQL
+9. MySQL
 
 🔑 API Documentation
 
 👨‍🎓 Student APIs
 
-1. Register Student: POST /student/save
+1. Register Student:  (POST) /student/save
 
-2. Login Student (JWT Token): POST /student/login
+2. Login Student (JWT Token):  (POST) /student/login
 
-3. Get All Students: GET /student/getallstudents
+3. Get All Students:  (GET) /student/getallstudents
 
-4. Update Profile: POST /student/updateProfile/{id}
+4. Update Profile:  (POST) /student/updateProfile/{id}
 
-5. Update Password: POST /student/updatePassword
+5. Update Password:  (POST) /student/updatePassword
 
-6. Delete Student: DELETE /student/deleteStudentById/{id}
+6. Delete Student:  (DELETE) /student/deleteStudentById/{id}
 
 📘 Course APIs
 
-1. Add Course: POST /course/save
+1. Add Course:  (POST) /course/save
 
-2. Get All Courses: GET /course/getallcourses
+2. Get All Courses:  (GET) /course/getallcourses
 
-3. Search Course: GET /course/search/{name}
+3. Search Course:  (GET) /course/search/{name}
 
-4. Update Course: POST /course/update/{id}
+4. Update Course:  (POST) /course/update/{id}
 
-5. Delete Course: DELETE /course/deleteCourseById/{id}
+5. Delete Course:  (DELETE) /course/deleteCourseById/{id}
 
-6. Get Enrolled Courses: GET /course/enrolled/{studentId}
+6. Get Enrolled Courses:  (GET) /course/enrolled/{studentId}
 
 🙌 Contributing
 
